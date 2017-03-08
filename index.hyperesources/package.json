@@ -2,7 +2,7 @@ var push = PushNotification.init({ "android": {"senderID": "599217111322s"},
          "ios": {"alert": "true", "badge": "true", "sound": "true"}, "windows": {} } );
  
     push.on('registration', function(data) {
-        // data.registrationId 
+        "9f7b331b-1d48-470b-bad4-f4a4fd00d7db"
     });
  
     push.on('notification', function(data) {
